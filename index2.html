@@ -1,0 +1,93 @@
+<!DOCTYPE html> <!-- Znak dla przeglądarki, że chcemy korzystać z najnowszej wersji html -->
+<html lang="pl">
+<!-- Deklaracja używanego języka-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--Deklaracja standardu używanych znaków. UTF-8 zawiera polskie znaki-->
+    <title>Strona testowa 2</title> <!-- Tytuł stony w wyszukiwarce i na pasku przeglądarki-->
+    <meta name="description" content="To jest druga strona - o divach" /> <!-- opis powinien mieć do 155-160 znaków, głuższe opisy będą w chromie przycięte-->
+    <meta name="keywords" content="test, strona, kurs,  divy" />
+    <meta http-equiv="X-UA-Compatibile" content="IE=edge,chrome=1" /> <!-- Deklaracja dla poprawnego wyświetlania się stony w przeglądarkach Internet Explorer -->
+
+    <style>
+        #container {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #logo {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        #nav {
+            float: left;
+            background-color: lightgray;
+            width: 120px;
+            min-height: 620px;
+            padding: 10px;
+        }
+
+        #content {
+            float: left;
+            padding: 20px;
+            width: 640px;
+        }
+
+        #ad {
+            float: left;
+            width: 160px;
+            min-height: 620px;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        #footer {
+            clear: both;
+            background-color: black;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="logo">
+            <h1>Logo</h1>
+        </div>
+
+        <div id="nav">
+            Element 1 <br />
+            Element 1 <br />
+            Element 3 <br />
+            Element 4 <br />
+        </div>
+
+        <div id="content">
+            <h2>Opis1</h2>
+        </div>
+
+        <div id="ad">
+            <img src="reklama.jpg" width="160px" height="300px">
+        </div>
+
+        <div id="footer">
+            To jest stopka &copy; Wszelkie prawa zastrzeżone
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
